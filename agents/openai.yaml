@@ -1,4 +1,4 @@
 interface:
   display_name: "Steam 游戏清单与比价"
-  short_description: "收到 Steam 链接后写入 Notion 游戏清单，核对国区史低与 CD Key 到手价"
-  default_prompt: "使用 $steam-game-checklist 处理这个 Steam 游戏链接：查重加入 Notion 游戏清单，查询国区史低与更便宜的 CD Key，并保留游玩后至少 500 字玩后感的完成条件。"
+  short_description: "Steam 链接入库 Notion，比对国区史低及 SteamPY、SteamCici 的 Key 与全球区 Gift"
+  default_prompt: "使用 $steam-game-checklist 处理这个 Steam 游戏链接：查重加入 Notion 游戏清单，检查 SteamPY、SteamCici 等平台的 CD Key 和全球区 Steam Gift 到手价，对比国区史低，并保留游玩后至少 500 字玩后感的完成条件。"
